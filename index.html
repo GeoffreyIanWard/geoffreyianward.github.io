@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Geoffrey Builds A Website</title>
+        <style>
+            body {
+                background: rgb(10, 40,100);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(020, 20, 50);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 25px 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+                border-radius: 10px 25px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 250px;
+                padding:2px;
+                border:2px solid #021a40;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <header>Geoffrey Ian Ward: Gumshoe For Hire</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                 <div class="sidebar">
+                      <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/40204850_10102309296054387_3330356261664325632_o.jpg?_nc_cat=111&_nc_oc=AQngW4yYda23Y-kfeLDr7ZmafklD4sRPX3pEyFJDcZJpC02hogiM8GZlK3zIMc55tvw&_nc_ht=scontent-dfw5-2.xx&oh=82d3f774878de84ae22d65c45c50a8f1&oe=5D6379A2">
+                </div>
+
+                <div class="content">
+                    <h1>Geoffrey Ian Ward</h1>
+                    <p>Consulting Detective</p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>The Haunted Mansion</li>
+                            <li>Pirates of the Carribean</li>
+                            <li>Spaceship Earth</li>
+                        </ul>
+                    </section>
+
+                    
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
